@@ -6,7 +6,7 @@ export const MOCK_USER: User = {
   email: '',
   role: 'CITIZEN',
   avatar: '',
-  county: ''
+  county: '' 
 };
 
 export const MOCK_ISSUES: Issue[] = [];
