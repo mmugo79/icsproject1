@@ -18,7 +18,7 @@ if (!databaseUrl) {
   console.error("Please add DATABASE_URL=\"postgresql://user:password@host:port/database\" to your .env file or environment.");
   process.exit(1);
 }
-
+ 
 // Extract database name from connection string for logging
 let dbName = "raiavoice";
 try {
