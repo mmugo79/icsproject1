@@ -14,7 +14,7 @@ const CATEGORIES: { label: string; value: IssueCategory | 'ALL' }[] = [
   { label: 'Electricity', value: 'ELECTRICITY' },
   { label: 'Waste', value: 'WASTE' },
 ];
-
+ 
 export function FeedPage() {
   const [issues, setIssues] = React.useState<Issue[]>(getIssues());
   const [selectedCategory, setSelectedCategory] = React.useState<IssueCategory | 'ALL'>('ALL');
