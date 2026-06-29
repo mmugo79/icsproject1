@@ -207,7 +207,7 @@ export function AdminDashboardPage() {
       color: 'text-emerald-650', 
       bg: 'bg-emerald-50' 
     },
-  ];
+  ]; 
 
   // Quick Action: Update Status
   const handleUpdateStatus = (id: string, nextStatus: IssueStatus) => {
