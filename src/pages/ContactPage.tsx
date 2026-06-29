@@ -23,7 +23,7 @@ export function ContactPage() {
       setEmail('');
       setMessage('');
     }, 1200);
-  };
+  }; 
 
   return (
     <div className="min-h-screen pt-24 pb-16 bg-[#fafcfa] font-sans text-slate-900">
