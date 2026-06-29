@@ -166,7 +166,7 @@ export function FAQPage() {
               className="h-12 px-6 bg-[#004d2c] hover:bg-[#003820] text-white font-extrabold uppercase rounded-xl border-none text-xs tracking-wider"
             >
               Contact Support
-            </Button>
+            </Button> 
             <Button 
               variant="outline"
               onClick={() => navigate('/')}
