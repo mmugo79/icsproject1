@@ -86,7 +86,7 @@ export function MapPage() {
       // Point center around Kenya (Nairobi center)
       const map = L.map(mapContainerRef.current, {
         zoomControl: false
-      }).setView([-1.2921, 36.8219], 10);
+      }).setView([-1.2921, 36.8219], 10); 
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
