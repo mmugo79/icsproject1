@@ -15,7 +15,7 @@ export function LoginPage() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const from = location.state?.from ? (location.state.from.pathname + (location.state.from.search || '')) : '';
+  const from = location.state?.from ? (location.state.from.pathname + (location.state.from.search || '')) : ''; 
 
   const handleAuthRedirect = (userEmail: string) => {
     const isUserAdmin = userEmail.toLowerCase().includes('admin') || userEmail.toLowerCase().endsWith('.go.ke');
