@@ -7,7 +7,7 @@ import { KeyRound, CheckCircle2, AlertCircle } from 'lucide-react';
 
 export function ResetPasswordPage() {
   const [searchParams] = useSearchParams();
-  const token = searchParams.get('token') || '';
+  const token = searchParams.get('token') || ''; 
   const email = searchParams.get('email') || '';
   const navigate = useNavigate();
 
