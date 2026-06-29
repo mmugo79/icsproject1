@@ -275,7 +275,7 @@ export function DashboardPage() {
         const pgRes = await savePhoneToPostgreSQL(user.id, profilePhone.trim());
         if (!pgRes.success) {
           console.warn('PostgreSQL phone sync reported warnings: ', pgRes.message);
-        }
+        } 
       }
 
       setProfileStatus({
