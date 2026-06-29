@@ -1,0 +1,14 @@
+{
+  "name": "RaiaVoice",
+  "description": "A modern civic issue reporting and public participation platform for Kenya, enabling citizens to report community issues and track progress.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "Civic issue reporting",
+    "Real-time status tracking",
+    "Community issue maps",
+    "Admin management dashboard",
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
