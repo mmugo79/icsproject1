@@ -9,7 +9,7 @@
     "start": "node dist/server.cjs",
     "migrate": "node migrate.js",
     "clean": "rm -rf dist",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit" 
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
