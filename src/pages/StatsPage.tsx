@@ -8,7 +8,7 @@ import { formatDistanceToNow } from 'date-fns';
 
 export function StatsPage() {
   const [issues, setIssues] = React.useState<Issue[]>(getIssues());
-
+ 
   React.useEffect(() => {
     const handleUpdate = () => {
       setIssues(getIssues());
