@@ -12,7 +12,7 @@ export interface User {
   email: string;
   role: 'CITIZEN' | 'ADMIN' | 'OFFICIAL';
   avatar?: string;
-  county?: string;
+  county?: string; 
   assignedCategories?: IssueCategory[];
   institution?: string;
   phone?: string;
