@@ -11,7 +11,7 @@ export function RegisterPage() {
   const [email, setEmail] = React.useState('');
   const [phone, setPhone] = React.useState('');
   const [county, setCounty] = React.useState('Nairobi');
-  const [ward, setWard] = React.useState('');
+  const [ward, setWard] = React.useState(''); 
   const [password, setPassword] = React.useState('');
   const [confirmPassword, setConfirmPassword] = React.useState('');
   const [error, setError] = React.useState('');
