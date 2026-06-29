@@ -8,7 +8,7 @@ import {
   MapPin, 
   Clock, 
   ArrowLeft, 
-  Share2, 
+  Share2,  
   AlertCircle,
   Send,
   ArrowBigUp,
