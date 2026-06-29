@@ -15,7 +15,7 @@ export const CONSTITUENCIES: Record<string, string[]> = {
   Nairobi: [
     'Westlands', 'Dagoretti North', 'Dagoretti South', 'Langata', 'Kibra',
     'Roysambu', 'Kasarani', 'Ruaraka', 'Embakasi South', 'Embakasi North',
-    'Embakasi Central', 'Embakasi East', 'Embakasi West', 'Makadara',
+    'Embakasi Central', 'Embakasi East', 'Embakasi West', 'Makadara', 
     'Kamukunji', 'Starehe', 'Mathare'
   ],
   Kisumu: [
