@@ -5,7 +5,7 @@ export function PrivacyPage() {
   return (
     <div className="min-h-screen pt-24 pb-16 bg-[#fafcfa] font-sans text-slate-900">
       <div className="max-w-4xl mx-auto px-6">
-        
+         
         {/* Header */}
         <div className="text-center space-y-4 mb-12">
           <div className="inline-flex p-3 rounded-2xl bg-teal-50 text-teal-600 border border-teal-100">
