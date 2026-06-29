@@ -6,7 +6,7 @@ export function TermsPage() {
     <div className="min-h-screen pt-24 pb-16 bg-[#fafcfa] font-sans text-slate-900">
       <div className="max-w-4xl mx-auto px-6">
         
-        {/* Header */}
+        {/* Header */} 
         <div className="text-center space-y-4 mb-12">
           <div className="inline-flex p-3 rounded-2xl bg-amber-50 text-amber-600 border border-amber-100">
             <Scale className="w-8 h-8" />
