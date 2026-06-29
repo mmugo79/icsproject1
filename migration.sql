@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS users (
   profile_picture_url TEXT,
   role VARCHAR(50) NOT NULL DEFAULT 'CITIZEN',
   category_assignment TEXT, -- Stored as JSON array/string
-  institution VARCHAR(255),
+  institution VARCHAR(255), 
   email_verified BOOLEAN DEFAULT FALSE,
   phone_verified BOOLEAN DEFAULT FALSE,
   two_factor_enabled BOOLEAN DEFAULT FALSE,
