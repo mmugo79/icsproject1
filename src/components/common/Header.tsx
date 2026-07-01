@@ -8,7 +8,8 @@ import { cn } from '@/lib/utils';
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const { user, logout } = useAuth();
-  const location = useLocation();
+  const location = useLocation(); 
+  
   const navigate = useNavigate();
 
   const getNavItems = () => {
