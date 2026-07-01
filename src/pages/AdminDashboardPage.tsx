@@ -10,7 +10,7 @@ import {
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { 
-  Users, 
+  Users,  
   MapPin, 
   CheckCircle2, 
   Clock, 
