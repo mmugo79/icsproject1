@@ -7,7 +7,7 @@ import path from 'path';
 dotenv.config();
 
 const { Client } = pg;
-const databaseUrl = process.env.DATABASE_URL; 
+const databaseUrl = process.env.DATABASE_URL;  
 
 console.log("======================================= ");
 console.log("  RAIAVOICE POSTGRESQL MIGRATOR GATES ");
