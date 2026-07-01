@@ -13,7 +13,7 @@ export function evaluatePasswordStrength(password: string) {
     special: /[^A-Za-z0-9]/.test(password),
   };
 
-  if (!password) {
+  if (!password) { 
     return {
       score: 'empty' as const,
       label: '',
