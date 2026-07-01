@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/Badge';
 import { formatDistanceToNow } from 'date-fns';
 
 export function StatsPage() {
-  const [issues, setIssues] = React.useState<Issue[]>(getIssues());
+  const [issues, setIssues] = React.useState<Issue[]>(getIssues()); 
  
   React.useEffect(() => {
     const handleUpdate = () => {
