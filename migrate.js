@@ -14,7 +14,7 @@ console.log("  RAIAVOICE POSTGRESQL MIGRATOR GATES ");
 console.log("======================================= ");
 
 if (!databaseUrl) {
-  console.error("❌ ERROR: DATABASE_URL is not set in your environmental variables!");
+  console.error("❌ ERROR : DATABASE_URL is not set in your environmental variables!");
   console.error("Please add DATABASE_URL=\"postgresql://user:password@host:port/database\" to your .env file or environment.");
   process.exit(1);
 }
