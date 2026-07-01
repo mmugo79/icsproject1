@@ -7,7 +7,7 @@ import * as React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom'; 
 import { Header } from '@/components/common/Header';
 import { Footer } from '@/components/common/Footer';
-import { AnimatePresence } from 'motion/react';
+import { AnimatePresence } from 'motion/react'; 
 import { AuthProvider, useAuth } from '@/lib/auth';
 
 // Actual Pages
