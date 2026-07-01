@@ -13,7 +13,7 @@ interface FAQItem {
 const FAQ_DATA: FAQItem[] = [
   {
     category: 'general',
-    question: 'What is RaiaVoice?',
+    question: 'What is RaiaVoice?', 
     answer: 'RaiaVoice is Kenya’s premium civic issue reporting and monitoring platform. It connects citizens directly with local community representatives, administration officials, and utility service providers to fast-track the monitoring, resolution, and transparency of vital public infrastructure like roads, water pipes, sewage lines, waste disposal, and street lights.'
   },
   {
