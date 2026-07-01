@@ -10,7 +10,7 @@ import { IssueCategory, Issue } from '@/types';
 const CATEGORIES: { label: string; value: IssueCategory | 'ALL' }[] = [
   { label: 'All Issues', value: 'ALL' },
   { label: 'Roads', value: 'ROADS' },
-  { label: 'Water', value: 'WATER' },
+  { label: 'Water', value: 'WATER' }, 
   { label: 'Electricity', value: 'ELECTRICITY' },
   { label: 'Waste', value: 'WASTE' },
 ];
