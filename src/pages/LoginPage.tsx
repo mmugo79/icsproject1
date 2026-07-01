@@ -13,7 +13,7 @@ export function LoginPage() {
   const [isSubmitting, setIsSubmitting] = React.useState(false);
   const { login, verifyUserEmail, sendResetEmail, loginWithGoogle, loginWithApple } = useAuth();
   const navigate = useNavigate();
-  const location = useLocation();
+  const location = useLocation(); 
 
   const from = location.state?.from ? (location.state.from.pathname + (location.state.from.search || '')) : ''; 
 
