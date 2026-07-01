@@ -13,7 +13,7 @@
     "moduleResolution": "bundler",
     "isolatedModules": true,
     "moduleDetection": "force",
-    "allowJs": true,
+    "allowJs": true, 
     "jsx": "react-jsx",
     "baseUrl": ".",
     "ignoreDeprecations": "6.0",
