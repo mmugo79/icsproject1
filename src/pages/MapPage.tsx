@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/Badge';
 import { getIssues } from '@/lib/db';
 import { Issue, IssueCategory } from '@/types';
 import { format } from 'date-fns';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; 
 import L from 'leaflet';
 
 export function MapPage() {
