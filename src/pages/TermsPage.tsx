@@ -9,7 +9,7 @@ export function TermsPage() {
         {/* Header */} 
         <div className="text-center space-y-4 mb-12">
           <div className="inline-flex p-3 rounded-2xl bg-amber-50 text-amber-600 border border-amber-100">
-            <Scale className="w-8 h-8" />
+            <Scale className="w-8 h-8" /> 
           </div>
           <h1 className="text-4xl font-extrabold text-[#004d2c] tracking-tight font-display">
             Terms of Service
