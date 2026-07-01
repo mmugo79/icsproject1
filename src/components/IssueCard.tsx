@@ -15,7 +15,7 @@ import {
   Droplet,
   Zap,
   Trash2,
-  AlertCircle,
+  AlertCircle, 
 } from 'lucide-react';
 
 interface IssueCardProps {
