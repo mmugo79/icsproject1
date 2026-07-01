@@ -9,7 +9,7 @@
     "start": "node dist/server.cjs",
     "migrate": "node migrate.js",
     "clean": "rm -rf dist",
-    "lint": "tsc --noEmit" 
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
@@ -39,6 +39,7 @@
     "@types/nodemailer": "^8.0.0",
     "@types/pg": "^8.20.0",
     "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.28.0",
     "tailwindcss": "^4.1.14",
