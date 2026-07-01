@@ -14,7 +14,7 @@ export function ContactPage() {
     e.preventDefault();
     if (!name || !email || !message) return;
 
-    setIsSubmitting(true);
+    setIsSubmitting(true); 
     // Simulate API request delay
     setTimeout(() => {
       setIsSubmitting(false);
