@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '@/lib/auth';
 import { saveIssue, getIssues, upvoteIssue } from '@/lib/db';
 import L from 'leaflet';
-import { saveIssueToPostgreSQL } from '@/lib/postgres';
+import { saveIssueToPostgreSQL } from '@/lib/postgres'; 
 
 export const CONSTITUENCIES: Record<string, string[]> = {
   Nairobi: [
