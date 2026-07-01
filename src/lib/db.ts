@@ -6,7 +6,7 @@ export interface AuditLog {
   userId: string;
   userName: string;
   action: string;
-  details: string;
+  details: string; 
   createdAt: string;
 }
 
