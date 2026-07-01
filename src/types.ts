@@ -4,7 +4,7 @@ export type IssueCategory =
   | 'ROADS' 
   | 'WATER' 
   | 'ELECTRICITY' 
-  | 'WASTE';
+  | 'WASTE'; 
 
 export interface User {
   id: string;
