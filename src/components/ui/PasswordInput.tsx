@@ -14,7 +14,7 @@ export const PasswordInput = React.forwardRef<HTMLInputElement, PasswordInputPro
     };
 
     return (
-      <div className={`relative ${containerClassName}`}>
+      <div className={`relative ${containerClassName}`}> 
         <input
           {...props}
           ref={ref}
