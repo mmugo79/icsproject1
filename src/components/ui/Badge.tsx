@@ -5,7 +5,7 @@ import { IssueStatus, IssueCategory } from '@/types';
 interface BadgeProps extends React.HTMLAttributes<HTMLDivElement> {
   variant?: 'default' | 'status' | 'category' | 'outline';
   status?: IssueStatus;
-  category?: IssueCategory;
+  category?: IssueCategory; 
   className?: string;
 }
 
