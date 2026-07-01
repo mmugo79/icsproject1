@@ -13,7 +13,7 @@ export function PrivacyPage() {
           </div>
           <h1 className="text-4xl font-extrabold text-[#004d2c] tracking-tight font-display">
             Privacy Policy
-          </h1>
+          </h1> 
           <p className="text-slate-500 max-w-xl mx-auto font-medium">
             At RaiaVoice, we maintain strict standards to shield and respect your identity. Read how we protect your civic data below.
           </p>
