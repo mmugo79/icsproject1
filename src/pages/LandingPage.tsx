@@ -15,7 +15,7 @@ export function LandingPage() {
   };
 
   const itemVariants = {
-    hidden: { y: 20, opacity: 0 }, 
+    hidden: { y: 20, opacity: 0 },  
     visible: { y: 0, opacity: 1 }
   };
 
