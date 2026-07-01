@@ -4,7 +4,7 @@ export const MOCK_USER: User = {
   id: '',
   name: '',
   email: '',
-  role: 'CITIZEN',
+  role: 'CITIZEN ',
   avatar: '', 
   county: '' 
 };
