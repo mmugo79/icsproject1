@@ -10,7 +10,7 @@ export interface User {
   id: string;
   name: string;
   email: string;
-  role: 'CITIZEN ' | 'ADMIN ' | 'OFFICIAL ';
+  role: 'CITIZEN' | 'ADMIN' | 'OFFICIAL';
   avatar?: string;
   county?: string; 
   assignedCategories?: IssueCategory[];
