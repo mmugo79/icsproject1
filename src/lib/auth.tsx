@@ -13,7 +13,7 @@ interface AuthContextType {
   loginWithGoogle: () => Promise<{ success: boolean; message: string }>;
   loginWithApple: () => Promise<{ success: boolean; message: string }>;
   isLoading: boolean;
-}
+} 
 
 const AuthContext = React.createContext<AuthContextType | undefined>(undefined);
 
